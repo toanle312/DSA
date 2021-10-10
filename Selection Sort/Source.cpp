@@ -1,5 +1,6 @@
 ﻿#include<iostream>
 using namespace std;
+// Xin chào
 void SWAP(int& a, int& b)
 {
 	int temp = a;
