@@ -1,0 +1,10 @@
+2 Thiết kế thuật toán
+Mọi vấn đề đều có thể được giải quyết bằng nhiều giải pháp, mặc dù một số giải pháp trong số đó được tối ưu hóa tốt hơn những giải pháp khác. Nhiệm vụ của bạn trong phần này chứa các yêu cầu nâng cao. Bạn phải xem xét các vấn đề, đưa ra hai giải pháp (một giải pháp này tốt hơn một giải pháp khác), và sau đó phân tích mức độ phức tạp của các giải pháp của bạn bằng cách sử dụng phương pháp được đề cập từ phần 1.
+Yêu cầu Đối với mỗi vấn đề, bạn phải:
+• Đưa ra hai thuật toán để giải quyết vấn đề. Thuật toán đầu tiên có thể là thứ đầu tiên bạn nghĩ về nó hoạt động. Cái thứ hai phải khác nhiều so với cái đầu tiên và sẽ cải tiến so với cái đầu tiên (tức là nó sẽ sử dụng ít thao tác hơn). Bạn có thể nghĩ đến giải pháp tốt nhất trước tiên, sau đó nhiệm vụ của bạn là tìm ra giải pháp tồi tệ hơn để so sánh với nó!
+• Đếm số lượng các thao tác gán và so sánh trong các giải pháp của bạn bằng cách chạy chúng với các đầu vào khác nhau
+• Thực hiện phân tích thống kê (bảng, biểu đồ) và so sánh hai giải pháp
+
+(A) Phần tử đa số 
+• Đầu vào: Một mảng các số nguyên A, có độ dài n 
+• Đầu ra: Một số nguyên k sao cho k xuất hiện ở hơn một nửa số vị trí của A nếu k tồn tại. Nếu không thì “Không” • Gợi ý: Đối với thuật toán thứ hai, bạn có thể xem xét không gian giao dịch cho thời gian

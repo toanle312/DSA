@@ -1,0 +1,26 @@
+HeapSort: Ý tưởng làm trên mảng
+Bước 1: Bắt đầu từ phần tử chính giữa mảng, Index = (n-1)/2
+Bước 2: while(Index>=0)
+	{
+	   heapRebuild(Index,a,n);
+	   Index--;
+	}
+Xây dựng hàm heapRebuild(pos,a,n)
+Bước 1: k=pos, v=a[k], isHeap=false
+Bước 2: while isHeap=false and 2*k+1 < n do
+	j=2*k+1 // vị trí liên đới đầu tiên
+
+	if(j<n-1) // Có đủ 2 liên đới 
+	  if(a[j]<a[j+1]) then j=j+1 // tìm phần tử liên đới lớn nhất
+	if(a[k]>=a[j]) then isHeap=true // nếu giá trị tại đó lớn hơn phần tử liên đới lớn nhất thì thỏa mãn tính chất của Heap
+	else 
+	  swap(a[k],a[j]) // Nếu không thỏa thì đổi chỗ phần tử vị trí hiện tại với phần tử liên đới lớn nhất
+	  k=j // Để xét tiếp phần tử vừa swap có thỏa tính chất Heap hay  không
+
+Ex:
+index(i):  0  1  2  3  4  5   6  7  8  9
+a[i] 	:  9, 1, 8, 7, 2, 6, 10, 4, 3, 2 // Xét ở vị trí i=4 và i=3 -> thỏa mãn, i=2 không thỏa mãn nên đổi phần tử
+	   9, 1, 10, 7, 2, 6, 8, 4, 3, 2 // i=2 không thỏa mãn nên đổi phần tử a[2] với liên đới lớn nhất
+	   9, 7, 10, 1, 2, 6, 8, 4, 3, 2 // i=1 không thỏa mãn nên đổi phần tử a[1] với liên đới lớn nhất
+	   9, 7, 10, 4, 2, 6, 8, 1, 3, 2 // tiếp tục xét từ vị trí vừa đổi (i=3) xem nó còn liên đới nào lớn hơn nó hay không
+	   10, 7, 9, 4, 2, 6, 8, 1, 3, 2 -> Xây dựng Max Heap thành công
