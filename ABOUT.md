@@ -10,6 +10,6 @@
 # Notes
 - Thư mục Lab chứa các đề bài trong phần học thực hành CTDL
 - Thư mục Theory chứa các slide lý thuyết CTDL
-- Ứng với mỗi thư mục là một phàn kiến thức liên quan đến môn CTDL và Giải thuật
+- Ứng với mỗi thư mục là một phần kiến thức liên quan đến môn CTDL và Giải thuật
 - Các nguồn tham khảo chính là từ: geeksforgeeks.org, cafedev.vn, nguyenvanhieu.vn,... và các nguồn tài liệu tham khảo từ các thầy cô trợ giảng
 
