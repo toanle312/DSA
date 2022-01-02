@@ -1,0 +1,6 @@
+ID Weight Product
+chic001 2.1 14
+duck001 2.2 14
+duck002 1.5 14
+chic002 1.3 24
+duck003 2.5 14

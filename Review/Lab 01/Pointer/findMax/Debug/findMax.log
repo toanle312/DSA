@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Practice DSA\Lab 01\Pointer\findMax\Source.cpp(4,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Practice DSA\Lab 01\Pointer\findMax\Source.cpp(12): warning C4172: returning address of local variable or temporary: max
+  findMax.vcxproj -> D:\Practice DSA\Lab 01\Pointer\Debug\findMax.exe

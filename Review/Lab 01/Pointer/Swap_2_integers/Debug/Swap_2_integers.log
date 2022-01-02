@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Practice DSA\Lab 01\Pointer\Swap_2_integers\Source.cpp(13,12): error C2664: 'void swap1(int *,int *)': cannot convert argument 1 from 'int' to 'int *'
+D:\Practice DSA\Lab 01\Pointer\Swap_2_integers\Source.cpp(13,8): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\Practice DSA\Lab 01\Pointer\Swap_2_integers\Source.cpp(3,6): message : see declaration of 'swap1'
