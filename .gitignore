@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.pdf
+*.json
+/.vs/sorting-algorithms/v16/ipch/AutoPCH/fe36944ae98615ef/DATAGENERATOR.ipch
+/.vs/sorting-algorithms/v16/.suo
+/.vs/sorting-algorithms/v16/Browse.VC.db
+/.vs/sorting-algorithms/v16/Browse.VC.db-shm
+/.vs/sorting-algorithms/v16/Browse.VC.db-wal
+/.vs/sorting-algorithms/v16/Browse.VC.opendb
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/sorting-algorithms/v16/ipch/AutoPCH/5e137fb2fcfbd104/SHELLSORT.ipch
+/.vs/sorting-algorithms/v16/ipch/AutoPCH/9dbc6950c8cb514c/RADIXSORT.ipch
+/.vs/sorting-algorithms/v17/.suo
+/.vs/sorting-algorithms/v17/Browse.VC.db
+/.vs/sorting-algorithms/v17/Browse.VC.db-shm
+/.vs/sorting-algorithms/v17/Browse.VC.db-wal
+/.vs/sorting-algorithms/v17/Browse.VC.opendb
+/.vs/sorting-algorithms/v17/ipch/AutoPCH/5e137fb2fcfbd104/SHELLSORT.ipch
+/.vs/sorting-algorithms/v17/ipch/AutoPCH/9dbc6950c8cb514c/RADIXSORT.ipch
+/.vs/sorting-algorithms/v17/ipch/AutoPCH/fe36944ae98615ef/DATAGENERATOR.ipch
+/.vs/sorting/v17
